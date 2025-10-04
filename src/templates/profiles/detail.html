@@ -11,7 +11,7 @@
 {% if perms.auth or owner %}
 {% if perms.auth.view_user or owner %}
 <div>
-    {{ instance.first_name }} - {{ instance.last_name }}
+ {{ instance.first_name }} - {{ instance.last_name }}
     {{ instance.last_login }}
 </div>
 {% else %}
